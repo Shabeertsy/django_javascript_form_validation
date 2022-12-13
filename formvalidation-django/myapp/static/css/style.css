@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-main {
+    background-image: linear-gradient(to right, rgb(22, 58, 85), rgb(33, 107, 227));
+    background-size: cover;
+    height: 65vh;
+    color: #fff;
+
+}
+
+.container-main h1 {
+    margin-bottom: 3%;
+    padding-top: 2%;
+
+}
+
+
+/* login section */
+
+.container-login {
+    background-image: linear-gradient(to right, rgb(22, 58, 85), rgb(33, 107, 227));
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+}
+
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* registration */
+
+.reg-form{
+    width: 40%;
+   
+}
+
+
