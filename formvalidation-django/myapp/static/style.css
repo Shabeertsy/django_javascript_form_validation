@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.backgr{
+    background-image: linear-gradient(to right, rgb(22, 58, 85), rgb(33, 107, 227));
+    background-size: cover;
+    color: #fff;
+}
 
 .container-main {
     background-image: linear-gradient(to right, rgb(22, 58, 85), rgb(33, 107, 227));

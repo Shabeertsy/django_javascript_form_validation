@@ -23,4 +23,15 @@ urlpatterns = [
     path("registration",views.registration,name="registration"),
     path("login" ,views.login,name='login'),
     path("success" ,views.success,name='success'),
+    path('student',views.student,name='student'),
+    path('add',views.add_data,name='add'),
+    path('delete/<int:del_id>',views.delete,name='delete'),
+    path('edit/<int:id>',views.edit,name='edit'),
+    path('<int:id>/update',views.update,name='update'),
+    path('todo',views.todo,name='todo'),
+    path('addtodo',views.add_todo,name='addtodo'),
+    path('deltodo/<int:to_id>',views.delete_todo,name='deltodo'),
+    path('edittodo/<int:id>',views.edit_todo,name='edittodo'),
+    path('<int:id>/updatetodo',views.update_todo,name='updatetodo'),
+    # path('refresh/<id>',views.refresh,name='refresh')
 ]
